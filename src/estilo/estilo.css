@@ -1,0 +1,145 @@
+*{ 
+    padding: auto;
+    margin: auto;
+  
+} /* tamanho padrão css de margin e padding*/
+
+a:-webkit-any-link{
+    text-decoration: none;
+    color: inherit;
+}
+
+.cabecalho{
+    
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    text-align: left;
+    
+    
+}
+
+.login{
+    
+    flex:auto;
+
+}
+    
+.rodape{
+    
+    position: absolute; 
+    width: 100%;
+    height: 5%;
+    font-size: 15px;        
+    color: gray;
+    text-align: center;
+    background-color: black;
+    line-height: 80px;
+    
+}
+
+table {
+    
+    border-spacing: 15px;
+    text-align: right; 
+    margin-left: auto;
+}
+
+td{
+
+    border-width: 1px;
+    border-color: black;
+    padding: 10px;
+
+}
+
+
+td:hover{
+
+    background-color: gray;
+    color: white;
+
+}/* hover, usada para destacar um botão*/
+
+.centropagina {
+    
+    display: flex;  
+    height: 760px;
+    
+}
+
+.caminho{
+    display: flex;
+    justify-content: center;
+    background-color:darkgrey;
+}
+
+
+
+/* LOGIN - TELA PRINCIPAL*/
+.div_principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.div_centro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    width: 800px;
+    
+}
+.div_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+.logo1{
+    
+    width: 390px;
+    height: 88px;
+}
+
+.div_logopai{
+    margin-bottom: 90px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+}
+
+.div_top{
+    height: 30px;
+    width: 100%;
+    background-color: #001969 ;
+    align-self: top;
+    margin: 0;
+}
+
+.div_bottom{
+    height: 30px;
+    width: 100%;
+    background-color: #001969;
+    align-self: bottom;
+    margin: 0;
+}
+
+.div_elementos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+}
+.space{
+    margin-top: 3px;
+}
