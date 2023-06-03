@@ -118,7 +118,7 @@ td:hover{
 }
 
 .div_top{
-    height: 30px;
+    height: 80px;
     width: 100%;
     background-color: #001969 ;
     align-self: top;
@@ -126,7 +126,7 @@ td:hover{
 }
 
 .div_bottom{
-    height: 30px;
+    height: 80px;
     width: 100%;
     background-color: #001969;
     align-self: bottom;
